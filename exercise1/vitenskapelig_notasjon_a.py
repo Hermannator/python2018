@@ -1,0 +1,5 @@
+stoff = input("Si et stoff du er i besittelse av: ")
+molvekt = int(input("Hva er molvekt i gram for vann? "))
+gram = int(input("Hvor mange gram vann har du? "))
+molekyler = (gram/molvekt)*(6.022e+23)
+print(f'Du har {format(molekyler,".1e")} molekyler {stoff}.')
